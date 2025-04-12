@@ -74,9 +74,4 @@ public class Carro {
         return km;
     }
 
-    public void kms(double km){
-        System.out.println(km);
-    }
-
-
 }

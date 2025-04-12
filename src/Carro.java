@@ -9,7 +9,7 @@ public class Carro {
     private double km;
 
     //construtor
-    public Carro(String marca,String modelo,int ano,String cor,String tipo_combustivel,String cambio,String chasi,int km){
+    public Carro(String marca,String modelo,int ano,String cor,String tipo_combustivel,String cambio,String chasi,double km){
         this.marca = marca;
         this.modelo=modelo;
         this.ano=ano;

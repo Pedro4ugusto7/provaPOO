@@ -52,7 +52,7 @@ public class Cliente {
     public void setData_nascimento(String data_nascimento) {
         this.data_nascimento = data_nascimento;
     }
-    public void setAltura(String email) {
+    public void setEmail(String email) {
         this.email = email;
     }
     public void setEndereco(String endereco) {

@@ -12,7 +12,8 @@ public class Main {
         for (Carro carro : carros) {
             if (carro.getKm() > 0) {
                 System.out.println("O(a) " + carro.getModelo() + " é usado(a).");
-            } else if (carro.getKm() == 0) {
+            }
+            else if (carro.getKm() == 0) {
                 System.out.println("O(a) " + carro.getModelo() + " é novo(a).");
             }
         }
@@ -26,7 +27,7 @@ public class Main {
         //Imprimindo alunos
         System.out.println("\nLista de Alunos:");
         for (Aluno aluno : alunos) {
-            System.out.println(aluno.getNome() + " " + aluno.getSobrenome() + " ,cpf: " + aluno.getCpf() + " ,email: " + aluno.getEmail() + " ,matricula: " + aluno.getMatricula() + " ,curso: " + aluno.getCpf() + " ,turno: " + aluno.getTurno());
+            System.out.println(aluno.getNome() + " " + aluno.getSobrenome());
         }
 
         //arraylist de funcionarios
@@ -84,7 +85,5 @@ public class Main {
             System.out.println(cliente.getNome() + " " + cliente.getSobrenome());
         }
     }
-
-
 
 }

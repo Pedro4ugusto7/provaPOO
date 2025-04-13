@@ -19,7 +19,7 @@ public class Main {
 
         //Arraylist de alunos
         ArrayList<Aluno> alunos = new ArrayList<>();
-        alunos.add(new Aluno("Pedro", "Freitas", "11122233344", "pedro@gmail.com", "2024000000", "ADS","Noturno"));
+        alunos.add(new Aluno("Pedro", "Freitas", "11122233366", "pedro@gmail.com", "2024000000", "ADS","Noturno"));
         alunos.add(new Aluno("João Vitor", "Farias", "22233344455", "joao@gmail.com", "2024111111", "Farmacia", "Noturno"));
         alunos.add(new Aluno("Afonso", "Francisco", "33344455566", "afonso@gmail.com", "2022333333", "Medicina", "Noturno"));
 

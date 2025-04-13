@@ -11,9 +11,9 @@ public class Main {
         //validação if e else e imprimindo carros
         for (Carro carro : carros) {
             if (carro.getKm() > 0) {
-                System.out.println("O(a) " + carro.getModelo() + " é usado.");
+                System.out.println("O(a) " + carro.getModelo() + " é usado(a).");
             } else if (carro.getKm() == 0) {
-                System.out.println("O(a) " + carro.getModelo() + " é novo.");
+                System.out.println("O(a) " + carro.getModelo() + " é novo(a).");
             }
         }
 

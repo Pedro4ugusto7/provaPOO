@@ -69,9 +69,4 @@ public class Carro {
     public void setKm(double km) {
         this.km = km;
     }
-
-    public double Kms(double km){
-        return km;
-    }
-
 }

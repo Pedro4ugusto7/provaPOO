@@ -1,5 +1,13 @@
 import java.util.ArrayList;
 
+//   - Criar 5 classes com 7 atributos privados cada
+//    - Todas as classes devem conter contrutores
+//    - Fazer um array de 1 das classes
+//    - Fazer alguma validação que tenha If e elseif
+//    - percorrer a lista de classes e imprimir elas.
+//    - Fazer alguma validação que tenha switch
+//    - Criar um arraylist com alguma classe e usar add/remove/cotains
+
 public class Main {
     public static void main(String[] args) {
         //array de carros
@@ -84,6 +92,7 @@ public class Main {
         for (Cliente cliente : clientes) {
             System.out.println(cliente.getNome() + " " + cliente.getSobrenome());
         }
+
     }
 
 }

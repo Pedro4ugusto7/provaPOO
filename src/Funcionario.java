@@ -1,5 +1,3 @@
-import javax.xml.parsers.SAXParser;
-
 public class Funcionario {
     private String nome;
     private String sobrenome;
@@ -17,7 +15,6 @@ public class Funcionario {
         this.cargo = cargo;
         this.salario=salario;
         this.departamento=departamento;
-        this.telefone=telefone;
     }
     //gets
     public String getNome() {
@@ -52,7 +49,7 @@ public class Funcionario {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
-    public void setIdade(String cargo) {
+    public void setCargo(String cargo) {
         this.cargo = cargo;
     }
     public void setSalario(double salario) {

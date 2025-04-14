@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-//   - Criar 5 classes com 7 atributos privados cada
+//    - Criar 5 classes com 7 atributos privados cada
 //    - Todas as classes devem conter contrutores
 //    - Fazer um array de 1 das classes
 //    - Fazer alguma validação que tenha If e elseif
@@ -40,25 +40,25 @@ public class Main {
 
         //arraylist de funcionarios
         ArrayList<Funcionario> funcionarios = new ArrayList<>();
-        funcionarios.add(new Funcionario("Pedro", "Freitas", "11122233344", "Vendedor", 2000, "Vendas"));
-        funcionarios.add(new Funcionario("João", "Farias", "55566677788", "Gerente", 10500, "Gerencia"));
-        funcionarios.add(new Funcionario("Afonso", "Francisco", "22233344455", "Contador", 4000, "Finanças"));
+        funcionarios.add(new Funcionario("Pedro ", "Freitas", "11122233344", "Vendedor", 2000, "Vendas"));
+        funcionarios.add(new Funcionario("João ", "Farias", "55566677788", "Gerente", 10500, "Gerencia"));
+        funcionarios.add(new Funcionario("Afonso ", "Francisco", "22233344455", "Contador", 4000, "Finanças"));
 
         //Validação com switch para funcionarios e imprimindo
         System.out.println("\nLista de Funcionarios:");
         for (Funcionario funcionario : funcionarios) {
             switch (funcionario.getCargo()) {
                 case "Vendedor":
-                    System.out.println(funcionario.getNome() + " " + funcionario.getSobrenome() + " trabalha 6 dias da semana.");
+                    System.out.println(funcionario.getNome().concat(funcionario.getSobrenome()) + " trabalha 6 dias da semana.");
                     break;
                 case "Faxineiro":
-                    System.out.println(funcionario.getNome() + " " + funcionario.getSobrenome() + " trabalha 6 dias da semana.");
+                    System.out.println(funcionario.getNome().concat(funcionario.getSobrenome()) + " trabalha 6 dias da semana.");
                     break;
                 case "Contador":
-                    System.out.println(funcionario.getNome() + " " + funcionario.getSobrenome() + " trabalha 4 dias da semana.");
+                    System.out.println(funcionario.getNome().concat(funcionario.getSobrenome()) + " trabalha 4 dias da semana.");
                     break;
                 default:
-                    System.out.println(funcionario.getNome() + " " + funcionario.getSobrenome() + " é o gerente.");
+                    System.out.println(funcionario.getNome().concat(funcionario.getSobrenome()) + " é o gerente.");
                     break;
             }
         }
@@ -92,7 +92,17 @@ public class Main {
         for (Cliente cliente : clientes) {
             System.out.println(cliente.getNome() + " " + cliente.getSobrenome());
         }
+        //criando arraylist de pessoa
+        ArrayList<Pessoa> pessoas = new ArrayList<>();
+        pessoas.add(new Pessoa("Pedro ", "Freitas", "55566677788", 20, "masculino"));
+        pessoas.add(new Pessoa("João ", "Farias", "33344457788", 19, "masculino"));
+        pessoas.add(new Pessoa("Talles ", "Pacheco", "00096677788", 25, "masculino"));
 
+        //imprimindo a lista de pessoa
+        System.out.println("\nLista de Pessoas:");
+        for(Pessoa pessoa : pessoas){
+            System.out.println(pessoa.getNome().concat(pessoa.getSobrenome()));
+        }
     }
 
 }
